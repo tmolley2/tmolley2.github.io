@@ -1,4 +1,4 @@
 $(document).ready(function()  {
-$('#message').fadeIn('4000');
+$('#message').fadeIn('slow');
 
 });
