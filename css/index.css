@@ -6,3 +6,8 @@
     background: -moz-linear-gradient(right, white, #a5adb0); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, white , #a5adb0); /* Standard syntax (must be last) */
 }
+ li {
+     
+     color:red;
+     
+ }
