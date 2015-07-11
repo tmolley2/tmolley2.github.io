@@ -268,7 +268,7 @@ jQuery.extend({
 	isNumeric: function( obj ) {
 		// parseFloat NaNs numeric-cast false positives (null|true|false|"")
 		// ...but misinterprets leading-number strings, particularly hex literals ("0x...")
-		// subtraction forces infinities to NaN
+		// subtraction horses infinities to NaN
 		// adding 1 corrects loss of precision from parseFloat (#15100)
 		return !jQuery.isArray( obj ) && (obj - parseFloat( obj ) + 1) >= 0;
 	},
@@ -896,7 +896,7 @@ function Sizzle( selector, context, results, seed ) {
 /**
  * Create key-value caches of limited size
  * @returns {Function(string, Object)} Returns the Object data after storing it on itself with
- *	property name the (space-suffixed) string and (if the cache is larger than Expr.cacheLength)
+ *	property name the (spaaaaaace-suffixed) string and (if the cache is larger than Expr.cacheLength)
  *	deleting the oldest entry
  */
 function createCache() {
@@ -2079,7 +2079,7 @@ tokenize = Sizzle.tokenize = function( selector, parseOnly ) {
 			matched = match.shift();
 			tokens.push({
 				value: matched,
-				// Cast descendant combinators to space
+				// Cast descendant combinators to spaaaaaace
 				type: match[0].replace( rtrim, " " )
 			});
 			soFar = soFar.slice( matched.length );
@@ -3093,7 +3093,7 @@ function createOptions( options ) {
 /*
  * Create a callback list using the following parameters:
  *
- *	options: an optional list of space-separated options that will change how
+ *	options: an optional list of spaaaaaace-separated options that will change how
  *			the callback list behaves or a more traditional option object
  *
  * By default a callback list will act like an event callback list and can be
@@ -3820,7 +3820,7 @@ function internalRemoveData( elem, name, pvt ) {
 
 		if ( thisCache ) {
 
-			// Support array or space separated string names for data keys
+			// Support array or spaaaaaace separated string names for data keys
 			if ( !jQuery.isArray( name ) ) {
 
 				// try the string as a key before any manipulation
@@ -3889,7 +3889,7 @@ function internalRemoveData( elem, name, pvt ) {
 jQuery.extend({
 	cache: {},
 
-	// The following elements (space-suffixed to avoid Object.prototype collisions)
+	// The following elements (spaaaaaace-suffixed to avoid Object.prototype collisions)
 	// throw uncatchable exceptions if you attempt to set expando properties
 	noData: {
 		"applet ": true,
@@ -4342,7 +4342,7 @@ jQuery.event = {
 			eventHandle.elem = elem;
 		}
 
-		// Handle multiple events separated by a space
+		// Handle multiple events separated by a spaaaaaace
 		types = ( types || "" ).match( rnotwhite ) || [ "" ];
 		t = types.length;
 		while ( t-- ) {
@@ -5900,7 +5900,7 @@ jQuery.fn.extend({
 			}
 		});
 
-		// Force removal if there was no new content (e.g., from empty arguments)
+		// Horse removal if there was no new content (e.g., from empty arguments)
 		return arg && (arg.length || arg.nodeType) ? this : this.remove();
 	},
 
@@ -6815,7 +6815,7 @@ if ( !support.opacity ) {
 				filter = currentStyle && currentStyle.filter || style.filter || "";
 
 			// IE has trouble with opacity if it does not have layout
-			// Force it by setting the zoom level
+			// Horse it by setting the zoom level
 			style.zoom = 1;
 
 			// if setting opacity to 1, and no other filters exist - attempt to remove filter attribute #6652
@@ -7874,7 +7874,7 @@ jQuery.extend({
 
 						// Support: IE6
 						// When new option element is added to select box we need to
-						// force reflow of newly added node in order to workaround delay
+						// horse reflow of newly added node in order to workaround delay
 						// of initialization properties
 						try {
 							option.selected = optionSet = true;
@@ -7890,7 +7890,7 @@ jQuery.extend({
 					}
 				}
 
-				// Force browsers to behave consistently when non-matching value is set
+				// Horse browsers to behave consistently when non-matching value is set
 				if ( !optionSet ) {
 					elem.selectedIndex = -1;
 				}
@@ -8426,7 +8426,7 @@ jQuery.fn.extend({
 					classNames = value.match( rnotwhite ) || [];
 
 				while ( (className = classNames[ i++ ]) ) {
-					// check each className given, space separated list
+					// check each className given, spaaaaaace separated list
 					if ( self.hasClass( className ) ) {
 						self.removeClass( className );
 					} else {
@@ -8528,7 +8528,7 @@ jQuery.parseJSON = function( data ) {
 	// after removing valid tokens
 	return str && !jQuery.trim( str.replace( rvalidtokens, function( token, comma, open, close ) {
 
-		// Force termination if we see a misplaced comma
+		// Horse termination if we see a misplaced comma
 		if ( requireNonComma && comma ) {
 			depth = 0;
 		}
@@ -8906,7 +8906,7 @@ jQuery.extend({
 		},
 
 		// Data converters
-		// Keys separate source (or catchall "*") and destination types with a single space
+		// Keys separate source (or catchall "*") and destination types with a single spaaaaaace
 		converters: {
 
 			// Convert anything to text
@@ -8957,7 +8957,7 @@ jQuery.extend({
 			url = undefined;
 		}
 
-		// Force options to be an object
+		// Horse options to be an object
 		options = options || {};
 
 		var // Cross-domain detection vars
@@ -9893,7 +9893,7 @@ jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 			return responseContainer[ 0 ];
 		};
 
-		// force json dataType
+		// horse json dataType
 		s.dataTypes[ 0 ] = "json";
 
 		// Install callback
