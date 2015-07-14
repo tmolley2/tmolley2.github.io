@@ -13,13 +13,13 @@
  }
  
 
- #background1{
-      background-image: url("https://lh3.googleusercontent.com/-OLuFvlkNk2c/VaR6WiqSjbI/AAAAAAAAAKU/QCfgytXzEZs/s800/Science-DNA-Wallpapers-1.jpg");
-      background-size cover;
-     position:absolute;
-     
-     
- }
+.bg {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5000;
+}
  .headers {
      
      color:white;
