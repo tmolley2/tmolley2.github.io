@@ -12,8 +12,28 @@
      
  }
  
- #hfont {
+ .headers {
      
      font-family: 'Inconsolata', Monospace;
      
  }
+ 
+ #navbar{
+     
+     color:black;
+     display:inline-block;
+     Position:fixed;
+     height:30px;
+     width:97.5%;
+ }
+ 
+ #navleft{
+     width:60%;
+     float:left;
+ }
+ 
+ .navright{
+     width:10%;
+     float:right;
+ }
+ 
