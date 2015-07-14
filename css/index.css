@@ -19,18 +19,24 @@
      
  }
  
- .headerlink{
-     
-     color:white;
-     
- }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    color:white;
+}
  
  #navbar{
      
      background-color:black;
      display:block;
      Position:fixed;
-     height:30px;
+     width:100%;
      margin:0px 0px 0px 0px;
  }
  
@@ -39,8 +45,5 @@
      float:left;
  }
  
- .navright{
-     width:10%;
-     float:right;
- }
+
  
