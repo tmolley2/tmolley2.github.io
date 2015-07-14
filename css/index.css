@@ -41,14 +41,17 @@ ul {
      Position:fixed;
      width:100%;
      margin:-10px 0px 0px -10px;
-     height:120px;
+     height:80px;
  }
  
  #navleft{
      background-color:blue;
-     padding:20px;
+     padding:10px;
      float:left;
-     margin:5px;
+     margin:0 auto;
+     position:relative;
+     width:250px;
+     height:auto;
  }
  
  #navright{
