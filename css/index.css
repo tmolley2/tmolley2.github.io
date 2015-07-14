@@ -44,11 +44,13 @@ ul {
  }
  
  #navleft{
+     background-color:blue;
      padding:20px;
      float:left;
  }
  
  #navright{
+     background-color:green;
      float:right;
      
  }
