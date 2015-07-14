@@ -31,7 +31,7 @@ ul {
 .headright {
     float: left;
     color:white;
-    padding:25px;
+    padding:15px;
 }
  
  #navbar{
@@ -41,7 +41,7 @@ ul {
      Position:fixed;
      width:100%;
      margin:-10px 0px 0px -10px;
-     height:80px;
+     height:70px;
  }
  
  #navleft{
@@ -55,6 +55,7 @@ ul {
  #navright{
      background-color:green;
      float:right;
+     margin:15px;
      
  }
  
