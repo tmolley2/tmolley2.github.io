@@ -14,14 +14,21 @@
  
  .headers {
      
+     color:white;
      font-family: 'Inconsolata', Monospace;
+     
+ }
+ 
+ .heardlinks{
+     
+     color:white;
      
  }
  
  #navbar{
      
      color:black;
-     display:inline-block;
+     display:block;
      Position:fixed;
      height:30px;
      width:97.5%;
