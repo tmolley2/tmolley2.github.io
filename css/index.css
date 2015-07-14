@@ -26,9 +26,10 @@ ul {
     overflow: hidden;
 }
 
-li {
+.headright {
     float: left;
     color:white;
+    padding:6px;
 }
  
  #navbar{
@@ -37,7 +38,7 @@ li {
      display:block;
      Position:fixed;
      width:100%;
-     margin:0px 0px 0px 0px;
+     margin:-10px 0px 0px -10px;
  }
  
  #navleft{
