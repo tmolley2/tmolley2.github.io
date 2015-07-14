@@ -19,7 +19,7 @@
      
  }
  
- .heardlinks{
+ .headerlink{
      
      color:white;
      
@@ -27,11 +27,11 @@
  
  #navbar{
      
-     color:black;
+     background-color:black;
      display:block;
      Position:fixed;
      height:30px;
-     width:97.5%;
+     margin:0px 0px 0px 0px;
  }
  
  #navleft{
