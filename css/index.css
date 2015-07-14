@@ -50,6 +50,8 @@ ul {
      float:left;
      margin:auto 0;
      position:relative;
+     display:inline;
+     margin:auto;
      
  }
  
