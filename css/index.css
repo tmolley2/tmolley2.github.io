@@ -47,9 +47,7 @@ ul {
  #navleft{
      background-color:blue;
      padding:10px;
-     position:relative;
-     display:inline;
-     margin:auto;
+     vertical-align:middle;
      
  }
  
