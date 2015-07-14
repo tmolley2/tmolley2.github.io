@@ -16,6 +16,7 @@
      
      color:white;
      font-family: 'Inconsolata', Monospace;
+     padding:25px;
      
  }
  
@@ -29,7 +30,7 @@ ul {
 .headright {
     float: left;
     color:white;
-    padding:6px;
+    padding:25px;
 }
  
  #navbar{
@@ -42,7 +43,7 @@ ul {
  }
  
  #navleft{
-     width:60%;
+     width:80%;
      float:left;
  }
  
