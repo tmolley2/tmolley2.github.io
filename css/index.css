@@ -45,17 +45,17 @@ ul {
  }
  
  #navleft{
-     background-color:blue;
+     
      padding:10px;
      float:left;
-     margin:15px;
+     margin:11px 20px;
      
  }
  
  #navright{
-     background-color:green;
+     
      float:right;
-     margin:15px;
+     margin:11px 20px;
      
  }
  
@@ -69,6 +69,7 @@ a {
     font-family:Raleway;
     text-decoration:none;
     color:white;
+    font-size:18;
 } 
 
  
