@@ -47,5 +47,16 @@ ul {
      float:left;
  }
  
+ #navleft{
+     float:right;
+     
+ }
+ 
+ a:hover{
+     
+     color:#B8B894;
+     
+ }
+ 
 
  
