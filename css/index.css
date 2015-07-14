@@ -16,7 +16,7 @@
      
      color:white;
      font-family: 'Inconsolata', Monospace;
-     padding:25px;
+     
      
  }
  
@@ -43,7 +43,7 @@ ul {
  }
  
  #navleft{
-     width:60%;
+     padding:25px;
      float:left;
  }
  
