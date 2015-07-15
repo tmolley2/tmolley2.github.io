@@ -6,7 +6,7 @@ $(".container").each(function(){
     //var refRatio = refW/refH;
 
     // Hard coded value...
-    var refRatio = 240/300;
+    var refRatio = 1920/1200;
 
     var imgH = $(this).children("img").height();
     var imgW = $(this).children("img").width();
