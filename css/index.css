@@ -22,6 +22,7 @@
     border-left:1px solid black;
     border-top:1px solid black;
     position:fixed;
+    display:inline-block;
 }
 
 
@@ -37,6 +38,7 @@
     position: absolute;
     overflow: hidden;
     margin:-20px 0px 0px -20px;
+    display:block;
 }
 
  .headers {
