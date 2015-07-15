@@ -35,12 +35,12 @@
 #background1{
     
     
-    background-image: url('http://www.materialscience.bayer.com/~/media/Bms/Images/Teaser/Titel02.ashx');
+    background-image: url('http://www.ox.ac.uk/sites/files/oxford/styles/ow_large_feature/public/field/field_image_main/Material-Sciences.jpg?itok=XL4gZHGV');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
-    height: 800px;
+    height: 550px;
     position: absolute;
     overflow: hidden;
 }
