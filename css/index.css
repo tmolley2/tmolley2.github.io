@@ -11,7 +11,7 @@
      color:red;
      
  }
- 
+ /*
  .container {
     height: 1080px;
     width: 105%;
@@ -30,7 +30,20 @@
 .landscape img {
     height: 100%;
 }
+*/
 
+#background1{
+    
+    
+    background-image: url('http://www.materialscience.bayer.com/~/media/Bms/Images/Teaser/Titel02.ashx');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800;
+    position: absolute;
+    overflow: hidden;
+}
 
  .headers {
      
