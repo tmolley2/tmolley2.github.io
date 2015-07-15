@@ -13,8 +13,8 @@
  }
  
  .container {
-    height: 300px;
-    width: 240px;
+    height: 1200px;
+    width: 1920px;
     background-color: red;
     float: left;
     overflow: hidden;
