@@ -18,7 +18,7 @@
     background-color:white;
     float: left;
     overflow: hidden;
-    margin:500px 0px 0px px;
+    margin:500px 0px 0px 0px;
     border-left:1px solid black;
     border-top:1px solid black;
     position:fixed;
@@ -37,7 +37,7 @@
     height: 550px;
     position: absolute;
     overflow: hidden;
-    margin:-20px 0px 0px -20px;
+    margin:-20px 0px 0px 0px;
     display:block;
 }
 
@@ -70,7 +70,7 @@ ul {
      display:block;
      Position:fixed;
      width:100%;
-     margin:10px 0px 0px -10px;
+     margin:10px 0px 0px 0px;
      height:70px;
  }
  
