@@ -56,11 +56,11 @@ ul {
  
  #navbar{
      
-     background-color:black;
+     background-color:none;
      display:block;
      Position:fixed;
      width:100%;
-     margin:-10px 0px 0px -10px;
+     margin:-10px 0px 0px 20px;
      height:70px;
  }
  
@@ -68,7 +68,7 @@ ul {
      
      padding:10px;
      float:left;
-     margin:11px 20px;
+     margin:11px 40px 11px 20px;
      
  }
  
