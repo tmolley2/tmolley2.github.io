@@ -11,7 +11,7 @@
      color:red;
      
  }
- #containerHeader{
+ .containerHeader{
      
      width:33%;
      height:40px;
@@ -122,14 +122,14 @@ ul {
  
  a:hover{
      
-     color:#B8B894;
+     color:#777777;
      
      
  }
 a {
     font-family:Raleway;
     text-decoration:none;
-    color:white;
+    color:#b9b9b9;
     font-size:14px;
 } 
 
