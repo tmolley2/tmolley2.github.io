@@ -22,12 +22,11 @@
  #containerRight {
     height: 500px;
     width: 33%;
-    background-color:white;
-    float: left;
+    background-color:red;
+    
     overflow: hidden;
-    margin:0px 0px 0px 0px;
-    border-left:1px solid black;
-    border-top:1px solid black;
+    margin:auto;
+   
    
     display:block;
 }
@@ -35,11 +34,10 @@
     height: 500px;
     width: 33%;
     background-color:white;
-    float: left;
+    
     overflow: hidden;
-    margin:0px 0px 0px 0px;
-    border-left:1px solid black;
-    border-top:1px solid black;
+    margin:auto;
+
    
     display:block;
 }
@@ -49,9 +47,8 @@
     background-color:white;
     float: left;
     overflow: hidden;
-    margin:0px 0px 0px 0px;
-    border-left:1px solid black;
-    border-top:1px solid black;
+    margin:auto;
+   
   
     display:block;
 }
@@ -122,15 +119,20 @@ ul {
  
  a:hover{
      
-     color:#777777;
+     color:#575757;
      
      
  }
-a {
+.ahead {
     font-family:Raleway;
     text-decoration:none;
     color:#b9b9b9;
     font-size:14px;
 } 
-
+.abody {
+    font-family:Raleway;
+    text-decoration:none;
+    color:#777777;
+    font-size:28px;
+} 
  
