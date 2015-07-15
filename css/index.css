@@ -15,18 +15,18 @@
      
      width:33%;
      height:40px;
-     border:1px solid black;
+     margin:auto;
      text-align:center;
      
  }
  #containerRight {
     height: 500px;
     width: 33%;
-    background-color:red;
-    
+    background-color:white;
+    margin:0px;
     overflow: hidden;
-    margin:auto;
-   
+    
+    float:left;
    
     display:block;
 }
@@ -34,11 +34,8 @@
     height: 500px;
     width: 33%;
     background-color:white;
-    
+   float:left;
     overflow: hidden;
-    margin:auto;
-
-   
     display:block;
 }
  #containerLeft {
@@ -47,9 +44,7 @@
     background-color:white;
     float: left;
     overflow: hidden;
-    margin:auto;
-   
-  
+   margin:0px;
     display:block;
 }
 
@@ -124,15 +119,18 @@ ul {
      
  }
 .ahead {
-    font-family:Raleway;
-    text-decoration:none;
+ 
     color:#b9b9b9;
     font-size:14px;
 } 
 .abody {
-    font-family:Raleway;
-    text-decoration:none;
+ 
     color:#777777;
     font-size:28px;
+} 
+a{
+    font-family:Raleway;
+    text-decoration:none;
+   
 } 
  
