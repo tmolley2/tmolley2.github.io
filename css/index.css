@@ -21,7 +21,7 @@
     margin:500px 0px 0px px;
     border-left:1px solid black;
     border-top:1px solid black;
-    position:relative;
+    position:fixed;
 }
 
 
